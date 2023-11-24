@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'Login_page.dart';
@@ -121,7 +119,7 @@ class _MyAccountState extends State<MyAccount> {
                                     SizedBox(
                                       height: 15.h,
                                     ),
-                                    Text(
+                                    const Text(
                                       "Account",
                                       style: TextStyle(
                                           fontWeight: FontWeight.bold),
