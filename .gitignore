@@ -1,12 +1,11 @@
 # Miscellaneous
-*.class
+
 *.log
 *.pyc
 *.swp
 .DS_Store
 .atom/
 .buildlog/
-.history
 .svn/
 migrate_working_dir/
 
@@ -38,7 +37,7 @@ app.*.symbols
 # Obfuscation related
 app.*.map.json
 
-# Android Studio will place build artifacts here
+# Android Studio will place build artifacts heree
 /android/app/debug
 /android/app/profile
 /android/app/release
