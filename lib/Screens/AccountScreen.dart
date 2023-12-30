@@ -1,8 +1,13 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
+=======
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:get/get.dart';
+>>>>>>> f4d6e5be3f5b3532dd6d10dfa7ed9f24d52ec2a2
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'Login_page.dart';
@@ -121,7 +126,11 @@ class _MyAccountState extends State<MyAccount> {
                                     SizedBox(
                                       height: 15.h,
                                     ),
+<<<<<<< HEAD
                                     Text(
+=======
+                                    const Text(
+>>>>>>> f4d6e5be3f5b3532dd6d10dfa7ed9f24d52ec2a2
                                       "Account",
                                       style: TextStyle(
                                           fontWeight: FontWeight.bold),

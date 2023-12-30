@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 import 'package:flutter/material.dart';
 
 
+=======
+>>>>>>> f4d6e5be3f5b3532dd6d10dfa7ed9f24d52ec2a2
 import 'Graph.dart';
 
 class BarData {

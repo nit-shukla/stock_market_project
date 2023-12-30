@@ -51,9 +51,17 @@ android {
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-gradle-build-configuration.
         minSdkVersion 19
+<<<<<<< HEAD
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
+=======
+         multiDexEnabled true
+        targetSdkVersion flutter.targetSdkVersion
+        versionCode flutterVersionCode.toInteger()
+        versionName flutterVersionName
+        
+>>>>>>> f4d6e5be3f5b3532dd6d10dfa7ed9f24d52ec2a2
     }
 
     buildTypes {
@@ -70,6 +78,10 @@ flutter {
 }
 
 dependencies {
+<<<<<<< HEAD
+=======
+      implementation 'com.android.support:multidex:1.0.3'
+>>>>>>> f4d6e5be3f5b3532dd6d10dfa7ed9f24d52ec2a2
     implementation("com.google.firebase:firebase-analytics-ktx")
     implementation(platform("com.google.firebase:firebase-bom:32.2.0"))
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"

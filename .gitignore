@@ -1,12 +1,19 @@
 # Miscellaneous
+<<<<<<< HEAD
 *.class
+=======
+
+>>>>>>> f4d6e5be3f5b3532dd6d10dfa7ed9f24d52ec2a2
 *.log
 *.pyc
 *.swp
 .DS_Store
 .atom/
 .buildlog/
+<<<<<<< HEAD
 .history
+=======
+>>>>>>> f4d6e5be3f5b3532dd6d10dfa7ed9f24d52ec2a2
 .svn/
 migrate_working_dir/
 
@@ -38,7 +45,11 @@ app.*.symbols
 # Obfuscation related
 app.*.map.json
 
+<<<<<<< HEAD
 # Android Studio will place build artifacts here
+=======
+# Android Studio will place build artifacts heree
+>>>>>>> f4d6e5be3f5b3532dd6d10dfa7ed9f24d52ec2a2
 /android/app/debug
 /android/app/profile
 /android/app/release
